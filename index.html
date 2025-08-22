@@ -20,6 +20,15 @@
       background-attachment: fixed;
     }
 
+    /* ▼▼▼ ここから追加 ▼▼▼ */
+    /* スマホ表示の時だけ背景画像の位置を調整 */
+    @media (max-width: 768px) {
+      body {
+        background-position: left center; /* 左側を中心に表示 */
+      }
+    }
+    /* ▲▲▲ ここまで追加 ▲▲▲ */
+
     /* 背景画像の上に重ねる半透明オーバーレイ */
     .overlay {
       position: fixed;
@@ -236,3 +245,4 @@
 
 </body>
 </html>
+
