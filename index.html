@@ -14,7 +14,7 @@
       font-family: 'Inter', sans-serif;
       color: #e5e5e5;
       /* 背景画像をここに設定 */
-      background-image: url('【背景画像のURL】');
+      background-image: url('./ku-bg.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -42,7 +42,7 @@
       box-sizing: border-box;
     }
 
-    /* プロフィールアイコン (動画と画像共通) */
+    /* プロフィールアイコン (動画) */
     .profile-icon {
       width: 110px;
       height: 110px;
@@ -144,8 +144,7 @@
   <!-- メインコンテンツ -->
   <div class="link-container">
     
-    <!-- ▼▼▼ アイコンを<img>から<video>に変更 ▼▼▼ -->
-    <video autoplay muted loop playsinline src="【アイコン動画のURL (.mp4)】" class="profile-icon"></video>
+    <video autoplay muted loop playsinline src="./ku-icon.mp4" class="profile-icon"></video>
     
     <p class="profile-handle">@ku_No.06</p>
     
